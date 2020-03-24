@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\Documents\\curso netcore\\Curso NetCore1\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "C:\\Users\\Lucas\\Documents\\curso netcore\\Curso NetCore1\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\Documents\\curso netcore\\Curso NetCore1\\DatingApp.API\\obj\\",
+      "outputPath": "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
