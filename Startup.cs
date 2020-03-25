@@ -11,11 +11,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using netcoreAPI.Controllers.Data;
+using netcoreAPI.Data;
 
 namespace DatingApp.API
 {
-    public class Startup
+    public class Startup //CONFIGURACION DE ARRANQUE//
     {
         public Startup(IConfiguration configuration)
         {
@@ -27,7 +27,7 @@ namespace DatingApp.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(x => x.UseSqlite("ConnectionString"));
+            services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));//Expresion LAMDA: permite usar elementos en un objeto de forma mas simple//
             services.AddControllers();
         }
 
