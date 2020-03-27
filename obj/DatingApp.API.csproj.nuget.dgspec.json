@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj": {}
+    "C:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj": {
+    "C:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj",
+        "projectPath": "C:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\Documents\\GitHub\\netcoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

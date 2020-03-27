@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using netcoreAPI.Models;
 
-namespace netcoreAPI.Controllers.Data
+namespace netcoreAPI.Data
 {
     public class DataContext : DbContext
     {
