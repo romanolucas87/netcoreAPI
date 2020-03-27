@@ -59,3 +59,5 @@ C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API
 C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API.dll
 C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API.pdb
 C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API.genruntimeconfig.cache
