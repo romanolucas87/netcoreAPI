@@ -16,8 +16,7 @@ namespace DatingApp.API.Controllers
         private readonly DataContext _context;
         public ValuesController(DataContext context)
         {
-            this._context = context;
-            
+            this._context = context;            
         }
     // GET api/values// te retorna TODOS LOS VALORES
     [HttpGet]
