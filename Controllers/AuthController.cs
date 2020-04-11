@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using netcoreAPI.Data;
+using netcoreAPI.Dtos;
 using netcoreAPI.Models;
 
 namespace netcoreAPI.Controllers
@@ -15,17 +16,22 @@ namespace netcoreAPI.Controllers
         }
         [HttpPost("register")]
 
-        public async Task<IActionResult> Register (string username, string password)//vamos a tener que cambiar o convertir los parametros
+        public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
-            //validate request
-            username = username.ToLower();
-            if(await _repo.UserExists(username))
+            //Validacion del modelo.. AGREGAR [FromBody]
+           // if (!ModelState.IsValid)
+           //     return BadRequest(ModelState);
+
+            userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
+            
+            if(await _repo.UserExists(userForRegisterDto.Username))
                 return BadRequest("El Usuario ya existe");
+            
             var userToCreate = new User {
-            Username = username
+            Username =userForRegisterDto.Username
             };
 
-            var createdUser = await _repo.Register (userToCreate, password);
+            var createdUser = await _repo.Register (userToCreate, userForRegisterDto.Password);
             return StatusCode(201);
         }
 
