@@ -61,3 +61,11 @@ C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API
 C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Documents\GitHub\netcoreAPI\obj\Debug\netcoreapp3.1\DatingApp.API.genruntimeconfig.cache
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Lucas\Documents\GitHub\netcoreAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
