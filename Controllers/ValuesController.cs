@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using netcoreAPI.Data;
@@ -9,6 +10,7 @@ using netcoreAPI.Data;
 namespace DatingApp.API.Controllers
 {
     //http:localhost:5000/api/values
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
@@ -26,7 +28,8 @@ namespace DatingApp.API.Controllers
        var values = await _context.Values.ToListAsync();
        return Ok(values);
     }
-
+    
+    [AllowAnonymous]
     // GET api/values/5 // TRAE EL QUE COINCIDA CON EL IDENTIFICADOR NR0 5
     [HttpGet("{id}")]
     public async Task<IActionResult> GetValue(int id)
